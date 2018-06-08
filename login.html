@@ -5,15 +5,83 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <title>Login</title>
 </head>
 <body>
-    <nav>Navigation</nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">STUDY ABROAD</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="  false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            UNIVERSITIES
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">University Reviews</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">University Deadlines</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"><i class="material-icons" style="padding: 0px 10px 0px 0px">school</i>Grad School Finder</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Compare Universities</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Course Descriptions</a>
+          </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          PROFILES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Similar Profiles</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Admits & Rejects</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Find Profiles</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Roomate Finder</a>
+        </div>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">DISCUSSIONS</a>
+      </li>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          SERVICES
+          </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Send Transcripts</a>
+          <a class="dropdown-item" href="#">Transcript orders</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Education Loans</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Forex Card</a>
+          <a class="dropdown-item" href="#">University Fee payment</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Health/Travel Insurance</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">EVENTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">BLOG</a>
+      </li>
+  </ul>
+    <button class="btn btn-sm btn-outline-secondary" type="button">Login</button>
+    <button class="btn btn-sm btn-outline-secondary" type="button">Sign up</button>
+  </div>
+</nav>
+    <br>
     <div class="container-fluid">
       <div class="row"> 
         <div class="col-6">
           <form> 
-            <label for="exampleInputEmail1">Enter your email to continue</label>
+            <div class="text-center">Enter your email to continue</div>
             <div class="form-group">  
               <input type="email" class="form-control" id="exampleInputEmail1" placeholder="eg.something@gmail.com">
             </div>
@@ -22,12 +90,12 @@
             </div>    
             <h6 align="center">OR</h6>
             <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-block">Sign in with Google</button>   
+              <button type="submit" class="btn btn-primary btn-block"><i class="fab fa-google"></i> Sign in with Google</button>   
             </div> 
-            <h6><b>Dont miss out on App-only features of Yocket</b></h6> 
+            <h6 class="text-center"><b>Dont miss out on App-only features of Yocket</b></h6> 
             <div class="row">  
             <div class="col-6">
-              <button type="submit" class="btn btn-primary btn-block">Google Play</button>
+             <img src="img/google-play-badge.png"class="img-fluid">
             </div>
             <div class="col-6">
               <button type="submit" class="btn btn-primary btn-block">App Store</button>
@@ -36,7 +104,13 @@
           </form>
          </div> 
          <div class="col-6">
-           <h4>Yocket</h4>     
+           <ul class="list-group list-group-flush">
+             <li class="list-group-item"><h1 class="mb-1">Yocket</h1><small>Study Abroad Guide For Masters</small></li>
+             <li class="list-group-item"><h6 class="mb-1">195,000 masters students & aspirants</h6><small>Join the largest study-abroad community for masters</small></li>
+             <li class="list-group-item"><h6 class="mb-1">176,000 admits and rejects</h6><small>Discover university-wise admits and rejects or connect with people having similar profiles</small></li>
+             <li class="list-group-item"><h6 class="mb-1">65,000 discussions and 253,000 answers</h6><small>Post your doubts, get answers and share experiences with this vast community.</small></li>
+             <li class="list-group-item"><h6 class="mb-1">Profile evaluator</h6><small>A smart tool to suggest list of safe, realistic & ambitious universities, based on YOUR profile</small></li>
+           </ul>     
          </div>
       </div>  
     </div>
