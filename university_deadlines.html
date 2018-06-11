@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        
+	</head>	
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light sticky-top" id=navbar>
+    		<a class="navbar-brand" style="font-family: Marck script" href="#">STUDY ABROAD</a>
+      	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="  false" aria-label="Toggle navigation">
+    	    </button>
+  			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    			<ul class="navbar-nav mr-auto">
+        			<li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			            UNIVERSITIES
+			          </a>
+				          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				            <a class="dropdown-item" href="#">University Reviews</a>
+				            <div class="dropdown-divider"></div>
+				            <a class="dropdown-item" href="#">University Deadlines</a>
+				            <div class="dropdown-divider"></div>
+				            <a class="dropdown-item" href="#">Grad School Finder</a>
+				            <div class="dropdown-divider"></div>
+				            <a class="dropdown-item" href="#">Compare Universities</a>
+				            <div class="dropdown-divider"></div>
+				            <a class="dropdown-item" href="#">Course Descriptions</a>
+				          </div>
+      				</li>
+			        <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          PROFILES
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Similar Profiles</a>
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Admits & Rejects</a>
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Find Profiles</a>
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Roomate Finder</a>
+				        </div>
+			       </li>
+			       <li class="nav-item">
+			        <a class="nav-link text-white" href="#">DISCUSSIONS</a>
+			      </li>
+			      <li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          SERVICES
+			          </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="#">Send Transcripts</a>
+			          <a class="dropdown-item" href="#">Transcript orders</a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#">Education Loans</a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#">Forex Card</a>
+			          <a class="dropdown-item" href="#">University Fee payment</a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#">Health/Travel Insurance</a>
+			        </div>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link text-white" href="#">EVENTS</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link text-white" href="#">BLOG</a>
+			      </li>
+			    </ul>
+	    		<button class="btn btn-sm btn-outline-secondary" type="button">Login</button>
+	    		<button class="btn btn-sm btn-outline-secondary bg-white border-white" type="button">Sign up</button>
+	  		</div>
+		</nav>
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-auto">
+                    <h2>Upcoming university deadlines</h2>
+                    <h4 class="text-muted">Fall 2018 / Spring 2019 University Deadlines for MS / Masters Applications</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10 p-0 mt-3 mb-3">
+                    <div class="border border primary">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10 p-0 mb-3">
+                    <div class="alert alert-primary" role="alert">
+                    <h6 class="text-primary" style="display: inline">Docs and Transcripts delivered to your University in 3-5 working days</h6>
+                    <button type="button" class="btn btn-sm" style="background-color: #0C7CD5; color:aliceblue;">CHECK RATES</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <P class="m-2">Filter By University</P>
+                    <div class="input-group input-group-sm mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">UNI</span>
+                      </div>
+                      <input type="text" class="form-control" placeholder="eg. University of Southern California" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <p class="m-2">Filter by course</p>
+                    <select class="form-control">
+                      <option>Aerospace / Aeronautical</option>
+                    </select>
+                </div>
+                <div class="col-3">
+                    <p class="m-2">Filter by deadline type</p>
+                    <select class="form-control">
+                      <option>Fall</option>
+                    </select>
+                </div>
+                <div class="col-2 align-self-end p-0">
+                    <a><button type="button" class="btn btn-sm"  style="background-color: orange; border-color:none; color:aliceblue">FILTER</button></a>
+                </div>
+            </div>
+            <div class="mt-3">
+                <table class="table table-sm table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">University</th>
+                      <th scope="col">Course</th>
+                      <th scope="col">Term</th>
+                      <th scope="col">Deadline</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="#">University of Toronto</a></td>
+                      <td><a href="#">Finance</a></td>
+                      <td>Fall 2018</td>
+                      <td>12 June, 2018</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">University of Toronto</a></td>
+                      <td><a href="#">Finance</a></td>
+                      <td>Fall 2018</td>
+                      <td>12 June, 2018</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">University of Toronto</a></td>
+                      <td><a href="#">Finance</a></td>
+                      <td>Fall 2018</td>
+                      <td>12 June, 2018</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">University of Toronto</a></td>
+                      <td><a href="#">Finance</a></td>
+                      <td>Fall 2018</td>
+                      <td>12 June, 2018</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">University of Toronto</a></td>
+                      <td><a href="#">Finance</a></td>
+                      <td>Fall 2018</td>
+                      <td>12 June, 2018</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">University of Toronto</a></td>
+                      <td><a href="#">Finance</a></td>
+                      <td>Fall 2018</td>
+                      <td>12 June, 2018</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">University of Toronto</a></td>
+                      <td><a href="#">Finance</a></td>
+                      <td>Fall 2018</td>
+                      <td>12 June, 2018</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">University of Toronto</a></td>
+                      <td><a href="#">Finance</a></td>
+                      <td>Fall 2018</td>
+                      <td>12 June, 2018</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">University of Toronto</a></td>
+                      <td><a href="#">Finance</a></td>
+                      <td>Fall 2018</td>
+                      <td>12 June, 2018</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">University of Toronto</a></td>
+                      <td><a href="#">Finance</a></td>
+                      <td>Fall 2018</td>
+                      <td>12 June, 2018</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">University of Toronto</a></td>
+                      <td><a href="#">Finance</a></td>
+                      <td>Fall 2018</td>
+                      <td>12 June, 2018</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">University of Toronto</a></td>
+                      <td><a href="#">Finance</a></td>
+                      <td>Fall 2018</td>
+                      <td>12 June, 2018</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">University of Toronto</a></td>
+                      <td><a href="#">Finance</a></td>
+                      <td>Fall 2018</td>
+                      <td>12 June, 2018</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">University of Toronto</a></td>
+                      <td><a href="#">Finance</a></td>
+                      <td>Fall 2018</td>
+                      <td>12 June, 2018</td>
+                    </tr>  
+                  </tbody>
+                </table>
+            </div>
+            <div class="row">
+                <div class="col mt-3 mb-3">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>  
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="mb-5">    
+                <div class="row pb-3" style="background-color: #E3F2FD">
+                    <div class="col mt-3">
+                        <h5 class="text-center text-primary">Get deadline updates for your interested universities on Yocket mobile app</h5>
+                    </div>
+                </div>
+                <div class="row pb-3 justify-content-center" style="background-color: #E3F2FD">
+                    <div class="col-2">
+                        <a><img href="#" alt="play store"/></a>
+                    </div>
+                    <div class="col-2">
+                            <a><img href="#" alt="Apple store"/></a>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="container-fluid" id="fgrey">
+                <div class="row fgrey">
+
+                </div>
+                <div class="row m-3 justify-content-center">
+                    <div class="col">
+                        <div class="float-right">
+                            Looking for help?
+                        </div>	
+                    </div>
+                    <div class="col pl-0">
+                        <button type="button" class="btn btn-sm rounded btn-primary">CONTACT US</button>
+                    </div>	
+                </div>
+                <div class="container">
+                    <div class="row m-3">
+                        <div class="col-3">
+                            <div class="card h-100" id="fgrey">
+                              <div class="card-body text-center">
+                                <strong>UNIVERSITY INFORMATION</strong>
+                                <!--<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>-->
+                                <ul class="card-text list-unstyled">
+                                    <li>University Reviews</li>
+                                    <li>Profile evaluator</li>
+                                    <li>Compare universities</li>
+                                    <li>Application Deadlines</li>
+                                    <li>Course Descriptions</li>
+                                </ul>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100" id="fgrey">
+                              <div class="card-body text-center">
+                                <strong>EXPLORE YOCKET</strong>
+                                <ul class="card-text list-unstyled">
+                                    <li>Similar profiles</li>
+                                    <li>Admits and rejects</li>
+                                    <li>Roommate finder</li>
+                                    <li>Discussions</li>
+                                    <li>Read Articles</li>
+                                </ul>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100" id="fgrey">
+                              <div class="card-body text-center">
+                                <strong>SERVICES</strong>
+                                <ul class="card-text list-unstyled">
+                                    <li>Send transcripts</li>
+                                    <li>Education Loans</li>
+                                    <li>Forex Card</li>
+                                    <li>University fee payment</li>
+                                    <li>Health/Travel Insurance</li>
+                                </ul>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100" id="fgrey">
+                              <div class="card-body text-center">
+                                <strong>MORE</strong>
+                                <!--<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>-->
+                                <ul class="card-text list-unstyled">
+                                    <li>Contact us | Work with us</li>
+                                    <li>Facebook | Twitter</li>
+                                    <li>About Us</li>
+                                    <li>Campus Ambassador</li>
+                                    <li>Privacy | Terms</li>
+                                </ul>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <select class="form-control form-control-sm">
+                          <option>Select language</option>
+                        </select>
+                        <small>Powered by Google <strong>Translate</strong></small>
+                    </div>	
+                </div>	
+        </footer>
+        <script src="js/jquery-3.3.1.slim.min.js" ></script>
+	    <script src="js/popper.min.js" ></script>
+	    <script src="js/bootstrap.js" ></script> 
+    </body>
