@@ -11,6 +11,14 @@
     background-color: #F1F1F1;
 }
 
+#fcard{
+    border:1px solid #F1F1F1;
+    background-color: #F1F1F1;
+}
 a{
-color:orange;
+    color:orange;
+}
+
+body{
+    font-family: Noto Sans, Arial, sans-serif;
 }
