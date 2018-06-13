@@ -15,9 +15,9 @@
     border:1px solid #F1F1F1;
     background-color: #F1F1F1;
 }
-a{
-    color:orange;
-}
+/*a{
+    color:orange !important;
+}*/
 
 body{
     font-family: Noto Sans, Arial, sans-serif;
