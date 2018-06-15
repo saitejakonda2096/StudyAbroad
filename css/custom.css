@@ -3,6 +3,14 @@
     border-color:#FF9800
 }
 
+h1{
+    font-size: 33px !important;
+    font-weight: 400 !important;
+}
+
+#orange_links{
+    color:orange !important;
+}
 #row_breaks{
      border:0.5px solid #dbcbcb;
 }
